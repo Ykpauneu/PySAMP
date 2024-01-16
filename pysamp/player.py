@@ -1744,7 +1744,8 @@ class Player:
         another player on the server.
 
         :param showplayer: The player that should see the change.
-        :param color: The desired color in RGBA format.
+        :param color: The color of the icon, in RGBA/Hex/Int color format. 
+        This should only be used with the square icon (ID: 0).
         :return: Returns nothing.
 
         .. code-block:: python
